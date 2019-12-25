@@ -11,7 +11,7 @@ ul, ol {
     list-style: none;
 }
 :link, :visited {
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 img, fieldset, a img, :link img, :visited img {
     border: none;
@@ -167,7 +167,8 @@ img:last-of-type {
     margin-bottom: 24px;
 }
 
-p {
+p, a {
+    color: #fff;
     font-size: 24px;
     line-height: 1.5;
     font-weight: 600px;
